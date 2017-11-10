@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(bg.jpeg) no-repeat center fixed;
+  background-size: cover; 
+}
+
+.keys {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  min-height: 55rem;
+}
+
+.key {
+  border: 1px solid white;
+  border-radius: 0.8rem;
+  margin: 0.6rem;
+  padding: 0.7rem;
+  width: 5rem;
+  color:white;
+  background-color: rgba(0,0,0,0.3);
+  height: 3rem;
+  text-align: center;
+  font-size: 1.5rem;
+  max-width: 4rem;
+  min-width: 3rem;
+  transition: all 0.07s;
+  text-shadow: 0 0 1rem black;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: rgb(102, 191, 13);
+  border: 2rem;
+  box-shadow: 0 0 0.7rem rgb(102, 191, 13);
+}
+
+kbd {
+  font-family: 'Cinzel', serif;
+  font-size: 1.2rem;
+}
+
+.sound {
+  display: block;
+  padding-top: 0.1rem;
+  font-size: 1rem;
+  font-family: 'Indie Flower', cursive;
+  color: rgb(125, 77, 4);
+}
