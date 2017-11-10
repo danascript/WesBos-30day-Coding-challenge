@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(bg.jpeg) no-repeat center fixed;
+  background-size: cover; 
+  text-align: center;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  min-height: 25rem;
+  font-size: 2rem;
+}
+
+.clock {
+  width: 30rem;
+  height: 30rem;
+  border: 0.3rem solid white;
+  border-radius: 50%;
+  margin: 10rem auto;
+  position: relative;
+  padding: 2rem;
+
+}
+
+.clock-face {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-3px);
+}
+
+.hand {
+  width: 50%;
+  height: 5px;
+  background: white;
+  position: absolute;
+  top: 50%;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+  transition: all 0.05s;
+  transition-timing-function: ease-in-out;
+  border-radius: 20px;
+}
+
+.second-hand {
+  background-color: #035138;
+  height: 2px;
+}
