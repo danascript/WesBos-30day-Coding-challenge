@@ -1,0 +1,37 @@
+:root {
+  --base:#ffc600;
+  --spacing:10px;
+  --blur:3px;
+}
+
+img {
+  padding: var(--spacing);
+  width: 80%;
+  background: var(--base);
+  filter: blur(var(--blur));
+} 
+
+.h2 {
+  color: var(--base);
+}
+
+body {
+  text-align: center;
+  color: white;
+  background: #193549;
+  font-weight: 100;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+label {
+  font-size: 25px;
+}
+
+.controls {
+  margin-bottom: 50px;
+}
+
+input {
+  width: 100px;
+}
