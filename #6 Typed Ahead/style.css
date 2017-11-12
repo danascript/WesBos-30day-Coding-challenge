@@ -1,0 +1,40 @@
+body {
+  font-size: 1.2rem;
+  background: url(https://images.pexels.com/photos/450597/pexels-photo-450597.jpeg?w=940&h=650&auto=compress&cs=tinysrgb) no-repeat center fixed;
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+}
+
+form {
+  margin: 0 auto;
+  width: 400px;
+  text-align: center;
+
+}
+.search {
+  margin-top: 1rem;
+  padding: .5rem;
+  border-radius: .2rem;
+  border: 0;
+  width: 400px;
+  font-size: 1.2rem;
+  text-align: center;
+  background:rgba(255,255,255,.7);
+  text-shadow: 0px 0px 5px #ffffff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+li {
+  margin-left: -20px;
+  list-style: none;
+  padding: .5rem;
+  background: rgba(255,255,255,.7);
+  box-shadow: 0px 0px 10px #ffffff;
+  color: black;
+  text-shadow: 0px 0px 5px #ffffff;
+  margin-bottom: 10px;
+}
+
+.h1 {
+  background-color: rgb(200,252,252);
+}
