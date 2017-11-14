@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <title>Use Shift for multiple choices</title>
+
+      <link rel="stylesheet" href="style.css">
+      <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    </head>
+  
+    <body>
+      <!--
+         The following is a common layout you would see in an email client.
+         When a user clicks a checkbox, holds Shift, and then clicks another checkbox a few rows down, all the checkboxes inbetween those two checkboxes should be checked.
+        -->
+      <div class="inbox">
+        <div class="item">
+          <input id="inbox layout" name="inbox layout" type="checkbox">
+          <label for="inbox layout">This is an inbox layout.</label>
+        </div>
+        <div class="item">
+          <input id="one item" name="one item" type="checkbox">
+          <label for="one item">Check one item</label>
+        </div>
+        <div class="item">
+          <input id="hold shift" name="hold shift" type="checkbox">
+          <label for="hold shift">Hold down your Shift key</label>
+        </div>
+        <div class="item">
+          <input id="lower item" name="lower item" type="checkbox">
+          <label for="lower item">Check a lower item</label>
+        </div>
+        <div class="item">
+          <input id="set to checked" name="set to checked" type="checkbox">
+          <label for="set to checked">Everything inbetween should also be set to checked</label>
+        </div>
+        <div class="item">
+          <input id="without any libraries" name="without any libraries" type="checkbox">
+          <label for="without any libraries">Try do it without any libraries</label>
+        </div>
+        <div class="item">
+          <input id="regular JavaScript" name="regular JavaScript" type="checkbox">
+          <label for="regular JavaScript">Just regular JavaScript</label>
+        </div>
+        <div class="item">
+          <input id="Good Luck" name="Good Luck" type="checkbox">
+          <label for="Good Luck">Good Luck!</label>
+        </div>
+        <div class="item">
+          <input id="tweet your result" name="tweet your result" type="checkbox">
+          <label for="tweet your result">Don't forget to tweet your result!</label>
+        </div>
+      </div>
+
+      <script src="main.js"></script>
+    </body>
+  
+  </html>
