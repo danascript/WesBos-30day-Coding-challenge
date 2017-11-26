@@ -1,0 +1,12 @@
+body {
+  background-image: url(img.jpg);
+}
+
+div {
+  text-align: center;
+  font-size: 4rem;
+  color: white;
+  font-family: monospace;
+  text-shadow: 2px 2px 5px #015982;
+  padding-top: 20%;
+}
