@@ -1,6 +1,6 @@
 body {
   font-family: 'Poiret One', cursive;
-  background-image: url('/showcase photos/Main_bg.png');
+  background-image: url('showcase photos\Main_bg.png');
   background-attachment: fixed;
   background-size: fixed;
   margin-bottom: 2rem;
@@ -23,12 +23,12 @@ h2 {
   margin-top: 8rem;
   text-align: center;
   font-family: 'Poiret One', cursive;
-  padding: 4rem 0 1.3rem 0;
+  padding: 4rem 0 1.4rem 0;
   font-weight: 700;
   text-shadow: 1px 1px 3px grey;
 }
 
-h2 a {
+.heading {
   padding: 1rem;
   background-color: black;
   border-radius: .4rem;
@@ -40,11 +40,11 @@ h2 a {
   transform: translateY(0) rotate(-5deg);
 }
 
-h2 a:hover {
+.heading:hover {
   text-decoration:none;
   color: white;
   animation: bounce 1s;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .card {
