@@ -1,12 +1,12 @@
 :root {
-  --base:#ffc600;
-  --spacing:10px;
-  --blur:3px;
+  --base:#87816c;
+  --spacing:20px;
+  --blur:2px;
 }
 
 img {
   padding: var(--spacing);
-  width: 80%;
+  width: 50%;
   background: var(--base);
   filter: blur(var(--blur));
 } 
@@ -19,19 +19,18 @@ body {
   text-align: center;
   color: white;
   background: #193549;
-  font-weight: 100;
-  font-size: 30px;
+  font-size: 1.4rem;
   font-family: 'Montserrat', sans-serif;
 }
 
 label {
-  font-size: 25px;
+  font-size: 1.2rem;
 }
 
 .controls {
-  margin-bottom: 50px;
+  margin-bottom: 2rem;
 }
 
 input {
-  width: 100px;
+  width: 10rem;
 }
