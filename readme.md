@@ -4,7 +4,7 @@
 
 #### **No Frameworks :zap: No Compilers :zap: No Libraries :zap: No Boilerplate**
 
-This repo contains all the challenges from [JavaScript30](https://javascript30.com/). You can check some of them on my [CodePen account](https://codepen.io/collection/DapZeP/) or on my [Showcase Page](https://misslild.github.io/WesBos-30day-Coding-challenge/).
+This repo contains all the challenges from [JavaScript30](https://javascript30.com/). You can check some of them on my [CodePen account](https://codepen.io/collection/DapZeP/) or on my [Showcase Page](https://danascript.github.io/WesBos-30day-Coding-challenge/).
 
 * [Drum Kit](https://github.com/misslild/WesBos-30day-Coding-challenge/tree/master/01%20-%20Drum%20Kit)
 * [JS CLock](https://github.com/misslild/WesBos-30day-Coding-challenge/tree/master/02%20-%20JS%20Clock)
